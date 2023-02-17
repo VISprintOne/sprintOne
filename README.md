@@ -1,6 +1,6 @@
 # sprintOne
 
-# stepnone
+# step-one
 
 # Create copy of git repository on computer
 
