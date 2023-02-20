@@ -1,17 +1,43 @@
 header {
-  display: block;
   background-color: antiquewhite;
-  padding: 0px 64px;
   width: 100%;
+  padding: 8px, 16px;
+  height: 110px;
+  border-bottom: 2px solid black;
+  padding: 0px 32px;
 }
+
 header h1 {
-  width: 30%;
-  height: 128px;
   font-family: "Playfair Display", serif;
   display: inline;
-  font-size: x-large;
+  font-size: 102px;
+  font-weight: 900;
+  color: rgb(25, 110, 247);
+  letter-spacing: -0.11em;
+  -webkit-text-stroke: 0.001px #000;
+  margin: 0px;
+}
+
+header ul,
+header li {
+  display: inline;
+  list-style: none;
+  font-size: 40px;
 }
 
 body {
   margin: 0px;
+}
+
+button {
+  font-size: 32px;
+  border-radius: 12.5%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+#blues {
+  color: orange;
 }
