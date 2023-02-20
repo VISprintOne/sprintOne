@@ -11,9 +11,6 @@ header h1 {
   display: inline;
   font-size: x-large;
 }
-header #nav {
-  width: 60%;
-}
 
 body {
   margin: 0px;
