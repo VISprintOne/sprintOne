@@ -38,6 +38,10 @@ button {
   display: flex;
 }
 
+.align-right {
+  margin-left: auto;
+}
+
 #blues {
   color: orange;
 }
