@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0px;
-  background-image: url(./images/r-mac-wheeler-CJZi367anGU-unsplash.jpg);
+  background-image: url(./images/Takeout.jpg);
   background-size: cover;
   background-repeat: repeat;
 }
@@ -123,6 +123,9 @@ footer {
 .flex-container {
   display: flex;
 }
+ul div {
+  width: 95%;
+}
 
 .align-right {
   margin-left: auto;
@@ -139,4 +142,5 @@ footer {
 
 #Order_Online {
   border: none;
+  font-size: 23px;
 }
