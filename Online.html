@@ -1,58 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Online</title>
-    <link rel="stylesheet" href="styleMenu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="flex-container">
         <h1 id="gary">Gary</h1>
         <h1 id="blues">Blue's</h1>
-        <ul class="align-right"></ul>
-        <li>
-          <button><a href="#">order now</a></button>
-        </li>
+        <ul class="align-right">
+          <li>
+            <button><a href="#">Home</landing></a></button>
+          </li>
+          <li>
+            <button><a href="http://127.0.0.1:5500/menu.html">menu</a></button>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
-      <div class="centered">
-        <h2 id="Menu1">Menu</h2>
+      <!-- main box -->
+      <div id="main_content">
+        <h2 id="slogan">
+          Gary Blue's Diner, a family restaraunt, Home to the Big Gary chicken
+          sandwich and good friends
+        </h2>
+        <section class="flex-container">
+          <aside id="Order Online">
+            <h3>Favourites:</h3>
+            <ul>
+              <ul>
+                <li>Big Gary</li>
+                <li>Mini Gary</li>
+                <li>Gary Poppins</li>
+                <li>Feast for Two</li>
+                <li>Family Feast</li>
+              </ul>
+              <ul>
+                <h4>Family Feasts</h4>
+                <li>6 piece Feast</li>
+                <li>9 piece Feast</li>
+                <li>10 piece Feast</li>
+                <li>13 piece Feast</li>
+                <li>18 piece Feast</li>
+              </ul>
+              <ul>
+                <h5>Sides</h5>
+                <li>Fries</li>
+                <li>Taters</li>
+                <li>Poutine</li>
+              </ul>
+            </ul>
+            
+          </aside>
+          <figure>
+            <img src="./images/loes-klinker-4DDVPoM5QWI-unsplash (1).jpg" />
+          </figure>
+        </section>
+        <h2 id="call_to_action">Stop by, try us sometime!</h2>
       </div>
-      <div id="Box1">Locations</div>
-      <div id="Box2">
-        <ul>
-          <li>Big Gary Chicken Sandwich</li>
-          <li>Mini Gary Chicken Sandwich</li>
-          <li>Gary's Poppins</li>
-          <li>Dinner for Two</li>
-          <li>Family Feast</li>
-        </ul>
-      </div>
-
-      <div id="Feasts">Feasts</div>
-      <div id="box3">
-        <ul>
-          <li>6 Piece Feast</li>
-          <li>9 Piece Feast</li>
-          <li>10 Piece Feast</li>
-          <li>13 Piece Feast</li>
-          <li>18 Piece Feast</li>
-        </ul>
-      </div>
-      <div id="Sides">Sides</div>
-      <div id="box4">
-        <ul>
-          <li>Fries</li>
-          <li>Potato Wedges</li>
-          <li>Poutine</li>
-          <li>Salad</li>
-          <li>Gravy</li>
-        </ul>
-      </div>
+      <!-- contact us button -->
+      <section class="flex-container">
+        <button id="contact" class="align-right">
+          <a href="http://127.0.0.1:5500/contact.html">contact us</a>
+        </button>
+      </section>
     </main>
+    <footer><h1>|Tyler Nolan|</h1></footer>
   </body>
 </html>
