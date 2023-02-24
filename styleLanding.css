@@ -82,8 +82,23 @@ main aside {
   width: fit-content;
 }
 
+aside li {
+  color: orange;
+  font-size: 32px;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: left;
+  padding: 16px;
+}
+
 aside h3 {
-  margin: 0px;
+  margin: 16px 0px;
+  /* border: 1px solid black; */
+  text-align: center;
+  font-size: 48px;
+  color: rgb(25, 110, 247);
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 aside ul {
@@ -95,15 +110,29 @@ aside li {
   margin-top: 16px;
 }
 
-figure {
-  margin-left: auto;
-  padding: 0px;
-  width: 500px;
-  overflow: hidden;
+@media screen and (min-width: 1200px) {
+  figure {
+    height: 500px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+  }
+
+  figure img {
+    border-radius: 16px;
+  }
 }
 
-figure img {
-  border-radius: 16px;
+@media screen and (max-width: 1200px) {
+  figure {
+    height: 0px;
+    width: 0px;
+  }
+  figure img {
+    height: 0px;
+    width: 0px;
+  }
 }
 
 a {
@@ -136,4 +165,11 @@ footer {
 #contact {
   margin-right: 32px;
   background-color: grey;
+}
+
+#locations {
+  background-color: rgba(250, 235, 215, 0.65);
+  margin-left: auto;
+  height: 300px;
+  width: 500px;
 }

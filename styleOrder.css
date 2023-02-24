@@ -94,14 +94,19 @@ aside li {
   margin-top: 16px;
 }
 
+div section {
+  margin-top: auto;
+}
+
 figure {
   margin-left: auto;
   padding: 0px;
-  border: 0.5px solid black;
-  border-radius: 16px;
   width: 500px;
-  height: 777px;
   overflow: hidden;
+}
+
+figure img {
+  border-radius: 16px;
 }
 
 a {
@@ -120,13 +125,17 @@ footer {
 }
 
 .menu-block {
+  border-radius: 16px;
+  padding: 8px;
   display: inline-block;
-  margin: 16px;
-  width: 300px;
+  margin: auto;
+  margin-left: 32px;
+  width: 240px;
 }
 
 .flex-container {
   display: flex;
+  border-radius: 16px;
 }
 ul div {
   width: 95%;
