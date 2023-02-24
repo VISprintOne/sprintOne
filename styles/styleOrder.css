@@ -8,9 +8,9 @@ html {
 
 body {
   margin: 0px;
-  background-image: url(./images/r-mac-wheeler-CJZi367anGU-unsplash.jpg);
+  background-image: url(../images/Takeout.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 header {
@@ -63,8 +63,7 @@ main div {
   margin: 64px;
   /* position: ; */
 }
-
-h2 {
+main div h2 {
   margin: 32px;
   /* border: 1px solid black; */
   text-align: center;
@@ -82,23 +81,8 @@ main aside {
   width: fit-content;
 }
 
-aside li {
-  color: orange;
-  font-size: 32px;
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: black;
-  text-align: left;
-  padding: 16px;
-}
-
 aside h3 {
-  margin: 16px 0px;
-  /* border: 1px solid black; */
-  text-align: center;
-  font-size: 48px;
-  color: rgb(25, 110, 247);
-  -webkit-text-stroke: 1px;
-  -webkit-text-stroke-color: black;
+  margin: 0px;
 }
 
 aside ul {
@@ -110,29 +94,19 @@ aside li {
   margin-top: 16px;
 }
 
-@media screen and (min-width: 1200px) {
-  figure {
-    height: 500px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-  }
-
-  figure img {
-    border-radius: 16px;
-  }
+div section {
+  margin-top: auto;
 }
 
-@media screen and (max-width: 1200px) {
-  figure {
-    height: 0px;
-    width: 0px;
-  }
-  figure img {
-    height: 0px;
-    width: 0px;
-  }
+figure {
+  margin-left: auto;
+  padding: 0px;
+  width: 500px;
+  overflow: hidden;
+}
+
+figure img {
+  border-radius: 16px;
 }
 
 a {
@@ -150,8 +124,21 @@ footer {
   height: 188px;
 }
 
+.menu-block {
+  border-radius: 16px;
+  padding: 8px;
+  display: inline-block;
+  margin: auto;
+  margin-left: 32px;
+  width: 240px;
+}
+
 .flex-container {
   display: flex;
+  border-radius: 16px;
+}
+ul div {
+  width: 95%;
 }
 
 .align-right {
@@ -167,9 +154,7 @@ footer {
   background-color: grey;
 }
 
-#locations {
-  background-color: rgba(250, 235, 215, 0.65);
-  margin-left: auto;
-  height: 300px;
-  width: 500px;
+#Order_Online {
+  border: none;
+  font-size: 23px;
 }
